@@ -57,7 +57,7 @@ class BlockChain:
             proof += 1
 
         #---------------------------end-----------------------------
-        # an easily computable algorithm is intentionally applied here, so that mining when testing dosen't waste too much time. However, a properly working cryptographic algorithm can be used here instead too :) 
+        # an easily computable algorithm is intentionally applied here, so that mining when testing dosen't waste too much time. However, a properly working cryptographic algorithm can also be used here instead too :) 
 
         return proof
     
